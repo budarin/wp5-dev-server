@@ -8,7 +8,7 @@ app.use(async (ctx, next) => {
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>HMR all the things!</title>
+        <title>Simple app</title>
     </head>
     <body>
         <div id="app">
