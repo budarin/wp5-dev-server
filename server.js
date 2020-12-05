@@ -19,5 +19,5 @@ app.use(async (ctx, next) => {
 });
 
 http.createServer({}, app.callback()).listen(3005, () => {
-    console.log({ msg: `Fake Proxy Server start on port: 3005` });
+    console.log({ msg: `Server start on port: 3005` });
 });
