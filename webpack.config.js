@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
     mode: 'development',
@@ -28,4 +29,5 @@ module.exports = {
         },
         writeToDisk: true,
     },
+    plugins: [new webpack.HotModuleReplacementPlugin()],
 };
