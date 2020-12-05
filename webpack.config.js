@@ -29,5 +29,4 @@ module.exports = {
         },
         writeToDisk: true,
     },
-    plugins: [new webpack.HotModuleReplacementPlugin()],
 };
